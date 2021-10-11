@@ -1,0 +1,156 @@
+
+
+GitHub\100DaysOfCode>rmdir \s 100-days-of-code
+The system cannot find the file specified.
+The process cannot access the file because it is being used by another process.
+
+GitHub\100DaysOfCode>rmdir 100-days-of-code \s
+The process cannot access the file because it is being used by another process.
+The system cannot find the file specified.
+
+GitHub\100DaysOfCode>dir
+ Volume in drive C is Windows
+ Volume Serial Number is E4DC-FFBE
+
+ Directory of \GitHub\100DaysOfCode
+
+10/10/2021  10:49 PM    <DIR>          .
+10/10/2021  10:49 PM    <DIR>          ..
+10/10/2021  10:50 PM    <DIR>          100-days-of-code
+               0 File(s)              0 bytes
+               3 Dir(s)  76,287,463,424 bytes free
+
+GitHub\100DaysOfCode>rmdir -s "100-days-of-code"
+The system cannot find the file specified.
+The process cannot access the file because it is being used by another process.
+
+GitHub\100DaysOfCode>rmdir -s "100-days-of-code"
+The system cannot find the file specified.
+The directory is not empty.
+
+GitHub\100DaysOfCode>rmdir /s "100-days-of-code"
+100-days-of-code, Are you sure (Y/N)? Y
+
+GitHub\100DaysOfCode>clone https://github.com/AbdelSameaAhmed/100-days-code
+'clone' is not recognized as an internal or external command,
+operable program or batch file.
+
+\GitHub\100DaysOfCode>git clone https://github.com/AbdelSameaAhmed/100-days-code
+Cloning into '100-days-code'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+
+GitHub\100DaysOfCode>cd
+\GitHub\100DaysOfCode
+
+GitHub\100DaysOfCode>dir
+ Volume in drive C is Windows
+ Volume Serial Number is E4DC-FFBE
+
+ Directory of \100DaysOfCode
+
+10/11/2021  08:59 PM    <DIR>          .
+10/11/2021  08:59 PM    <DIR>          ..
+10/11/2021  08:59 PM    <DIR>          100-days-code
+               0 File(s)              0 bytes
+               3 Dir(s)  76,280,225,792 bytes free
+\GitHub\100DaysOfCode>cd 100-days-code
+
+\GitHub\100DaysOfCode\100-days-code>dir
+ Volume in drive C is Windows
+ Volume Serial Number is E4DC-FFBE
+
+ Directory of GitHub\100DaysOfCode\100-days-code
+
+10/11/2021  08:59 PM    <DIR>          .
+10/11/2021  08:59 PM    <DIR>          ..
+10/11/2021  08:59 PM             1,928 .gitignore
+10/11/2021  08:59 PM                31 README.md
+               2 File(s)          1,959 bytes
+               2 Dir(s)  76,280,291,328 bytes free
+
+GitHub\100DaysOfCode\100-days-code>cd..
+
+GitHub\100DaysOfCode>dir
+ Volume in drive C is Windows
+ Volume Serial Number is E4DC-FFBE
+
+ Directory of GitHub\100DaysOfCode
+
+10/11/2021  08:59 PM    <DIR>          .
+10/11/2021  08:59 PM    <DIR>          ..
+10/11/2021  08:59 PM    <DIR>          100-days-code
+               0 File(s)              0 bytes
+               3 Dir(s)  76,279,066,624 bytes free
+GitHub\100DaysOfCode>cd 1
+The system cannot find the path specified.
+
+GitHub\100DaysOfCode>cd 100-days-code
+
+\GitHub\100DaysOfCode\100-days-code>dir
+ Volume in drive C is Windows
+ Volume Serial Number is E4DC-FFBE
+
+ Directory of GitHub\100DaysOfCode\100-days-code
+
+10/11/2021  08:59 PM    <DIR>          .
+10/11/2021  08:59 PM    <DIR>          ..
+10/11/2021  08:59 PM             1,928 .gitignore
+10/11/2021  08:59 PM                31 README.md
+               2 File(s)          1,959 bytes
+               2 Dir(s)  76,278,927,360 bytes free
+
+GitHub\100DaysOfCode\100-days-code>git status
+starting fsmonitor-daemon in 'C:/Users/asahmed/Documents/GitHub/100DaysOfCode/100-days-code'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        11-Oct-21/
+
+nothing added to commit but untracked files present (use "git add" to track)
+\GitHub\100DaysOfCode\100-days-code>git add  *
+\GitHub\100DaysOfCode\100-days-code>git push *
+fatal: '*' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+\GitHub\100DaysOfCode\100-days-code>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   11-Oct-21/py_ebook.py
+        new file:   11-Oct-21/solvePr1.py
+
+
+GitHub\100DaysOfCode\100-days-code>git commit -m "the first commit for 100DaysOfCode"
+[main a61eca2] the first commit for 100DaysOfCode
+ 2 files changed, 149 insertions(+)
+ create mode 100644 11-Oct-21/py_ebook.py
+ create mode 100644 11-Oct-21/solvePr1.py
+
+GitHub\100DaysOfCode\100-days-code>git branch
+* main
+
+\GitHub\100DaysOfCode\100-days-code>git remote -v
+origin  https://github.com/AbdelSameaAhmed/100-days-code (fetch)
+origin  https://github.com/AbdelSameaAhmed/100-days-code (push)
+
+GitHub\100DaysOfCode\100-days-code>git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.79 KiB | 611.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AbdelSameaAhmed/100-days-code
+   1972883..a61eca2  main -> main
+
+\GitHub\100DaysOfCode\100-days-code>
