@@ -19,7 +19,7 @@ def longestword(enteredword):
             count = len(word)
             longest = word
     return longest
-print(longestword("this is th most word unfortuntly itwasthefirstunfor  "))
+print(longestword("this is the most word unfortuntly itwasthefirstunfor  "))
 import string
 remove character for mstring
 def remove_char_from(word, c):
@@ -36,7 +36,7 @@ def remove_char_from(word, c):
 
 
 print(remove_char_from("ASAD Saysdd ddHello", "d"))
-# remove duplicate word from string
+# create function to remove duplicate word from string
 print("*"*50)
 def remove_dup(sentence):
     words_list = sentence.split(" ")

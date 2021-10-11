@@ -1,35 +1,11 @@
+# Git command for maneging repos:
+first stage is git clone "repo url"
+second stage is git init 
+third stage is git add "new file"
 
+forth stage is git commit
+fifth stage is git push repotrepo main or master
 
-GitHub\100DaysOfCode>rmdir \s 100-days-of-code
-The system cannot find the file specified.
-The process cannot access the file because it is being used by another process.
-
-GitHub\100DaysOfCode>rmdir 100-days-of-code \s
-The process cannot access the file because it is being used by another process.
-The system cannot find the file specified.
-
-GitHub\100DaysOfCode>dir
- Volume in drive C is Windows
- Volume Serial Number is E4DC-FFBE
-
- Directory of \GitHub\100DaysOfCode
-
-10/10/2021  10:49 PM    <DIR>          .
-10/10/2021  10:49 PM    <DIR>          ..
-10/10/2021  10:50 PM    <DIR>          100-days-of-code
-               0 File(s)              0 bytes
-               3 Dir(s)  76,287,463,424 bytes free
-
-GitHub\100DaysOfCode>rmdir -s "100-days-of-code"
-The system cannot find the file specified.
-The process cannot access the file because it is being used by another process.
-
-GitHub\100DaysOfCode>rmdir -s "100-days-of-code"
-The system cannot find the file specified.
-The directory is not empty.
-
-GitHub\100DaysOfCode>rmdir /s "100-days-of-code"
-100-days-of-code, Are you sure (Y/N)? Y
 
 GitHub\100DaysOfCode>clone https://github.com/AbdelSameaAhmed/100-days-code
 'clone' is not recognized as an internal or external command,
