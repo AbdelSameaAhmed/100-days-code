@@ -13,3 +13,7 @@
 
 # 3rd day in 100 Days of coding
 * chapter 7 work with file
+<<<<<<< HEAD
+=======
+
+>>>>>>> 584780759388f02fae15cd676f0552842db5bea3
