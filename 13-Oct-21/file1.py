@@ -36,7 +36,7 @@ print("12345\rabc")
 
 
 mystring = """string 
-is not "test" \ 'test2' \
+is not "test" \ 'test2' \n
 the same"""
 
 print(mystring)

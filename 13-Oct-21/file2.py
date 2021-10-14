@@ -24,6 +24,7 @@ myName = "Asahmed"
 print(myName.center(7, "@"))
 
 
+
 # ----------------------
 # count()
 f = "I love python and php so much and php"
