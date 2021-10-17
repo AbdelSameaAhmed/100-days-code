@@ -3,20 +3,19 @@ from random import randint
 print(os.getcwd())
 
 # create function called getUserPoint()
-def getUserPoint(userName=""):
+def getUserPoint(userName):
     try:
-        userfile = open("userScores.txt", "r")
+        userfile = open('userScores.txt', 'r')
+        for line in userfile:
+            content = line.split(',')
+            if content[0] == userName:
+                userfile.close()
+                return content[1]
+        else:
+            userfile.close()
+            return "-1"
     except:
-        print("file cannot be opened")
-
-    for line in userfile:
-        line = line.split()
-        if userName in line:
-            return line
-            df.close()
-    else:
-        userfile.close()
-        
+        print("file connot be opened")
 
 
-getUserPoint(userName = "Ann")
+print(getUserPoint("Benny"))
