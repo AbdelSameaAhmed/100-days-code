@@ -1,0 +1,21 @@
+# Task 08
+- Socket
+- urllib
+- Numpy
+
+create python environment using virtualenv
+create python virtual env 
+virtualenv 100-days-code
+upgrade pip using python -m pip install --upgrade pipe
+show the library installed using pip list
+install required library
+pip install pandas
+pip install numpy
+pip install python-socketio
+
+
+{% comment %} set path %path%;'C:\Users\asahmed\AppData\Local\Programs\Python\Python39\Scripts' {% endcomment %}
+
+
+
+
