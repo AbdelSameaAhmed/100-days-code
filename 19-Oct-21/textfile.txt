@@ -1,0 +1,11 @@
+
+These file if only to testing program,
+
+to make sure that the program reading text in audio is running good,
+
+these program can take the name of file he want to listen in audio 
+
+and run audio of its contents in english.
+
+
+
