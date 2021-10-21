@@ -49,7 +49,7 @@ progNumber = randint(1, 100)
 guessedNumber = int(input("please enter your guessed number: "))
 try:
     # guessedNumber = int(guessedNumber)
-    while Type(guessedNumber) == int:
+    for Type(guessedNumber) == int:
     # if guessedNumber != progNumber:
         if guessedNumber > progNumber:
             print("very high number")
