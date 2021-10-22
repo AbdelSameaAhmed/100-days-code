@@ -30,3 +30,6 @@ while index > 0:
     l1.append(newl)
     index -= 1
 print(l1)
+
+# --------------------------------------------
+# ex
