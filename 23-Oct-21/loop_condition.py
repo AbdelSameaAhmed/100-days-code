@@ -24,7 +24,6 @@ def readtxtcontent(filename):
 # test function
 readtxtcontent('test1.txt')
 
-
 print(" ", end = '\n')
 print("*" * 50)
 # --------------------------------------
