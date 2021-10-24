@@ -64,3 +64,5 @@ def mult(data):
     return f"the multibly of data numbers is: {m}"
 # test function 
 print(mult([1,2,2,2,2,2]))
+print("*" * 80)
+# ex2
