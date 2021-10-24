@@ -11,20 +11,20 @@
 # Solution
 # -----------------------------
 
-# print("*" * 80)
-# print(" " , '\n')
-# l1 = list(range(1,10))
-# # print(l1)
-# num_s = 0
-# count_s = 0
-# for x in l1:
-#     num_s = num_s + x
-#     count_s += 1
-#     if count_s == 5:
-#         break
-# print(f"the sum of first five element is: {num_s} and count is {count_s}")
-# print(" " , '\n')
-# print("*" * 80)
+print("*" * 80)
+print(" " , '\n')
+l1 = list(range(1,10))
+# print(l1)
+num_s = 0
+count_s = 0
+for x in l1:
+    num_s = num_s + x
+    count_s += 1
+    if count_s == 5:
+        break
+print(f"the sum of first five element is: {num_s} and count is {count_s}")
+print(" " , '\n')
+print("*" * 80)
 
 
 print("*" * 80)
