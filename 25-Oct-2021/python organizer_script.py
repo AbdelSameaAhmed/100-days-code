@@ -109,6 +109,7 @@ for filename in os.listdir(currentDire):
     print(f"organized files:{'-->' *2}{filename}")
 print("*" * 40)
 
+
 # organize exe files
 for filename in os.listdir(currentDire):
     if filename.endswith((".exe", ".eml", ".Rhistory", ".json", ".ica", ".msi", ".imap", ".crdownload", ".iso", ".isc")):
