@@ -1,7 +1,8 @@
 # ------------------------
 # Lambda Fuction ---------
 # ------------------------
-
+# ex
+# ------------------------
 # Write a Python program to filter a list of integers using Lambda
 # Original list of integers:
 # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -21,6 +22,8 @@ odd_num = list(filter(lambda x : x%2 !=0, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 print(odd_num)
 print("*"*60)
 
+# ex2
+# ------------------------
 #  Write a Python program to square and cube every
 #  number in a given list of integers.
 # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -40,3 +43,12 @@ print("cub numbers are: ")
 print(cubfun)
 
 print("*"*60)
+
+# ex
+# ------------------------
+# Write a Python program to find if a given string
+# starts with a given character using Lambda.
+
+# solution
+# -------------------------
+
