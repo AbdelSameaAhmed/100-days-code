@@ -11,7 +11,7 @@
 import random
 
 generateNumber = random.randint(1, 100)
-print(generateNumber)
+# print(generateNumber)
 guessednumber = input('please enter number: ')
 try:
     guessednumber = int(guessednumber)
