@@ -49,5 +49,3 @@ print("*"*30)
 
 print(id(x))
 
-def = 3
-print(def)

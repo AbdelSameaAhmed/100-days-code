@@ -70,3 +70,5 @@ print("this is statement1") ; print("this is statement2")
 # -------------------------------------------------
 # indentation
 # -------------------------------------------------
+print(type(lambda:None))
+
